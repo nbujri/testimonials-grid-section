@@ -7,5 +7,29 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 81%);
+  background-color: hsl(213, 44%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+
+.violet {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-picture {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+
+.status,
+.quote {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.bold {
+  font-size: 2rem;
+  font-weight: 600;
 }
