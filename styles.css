@@ -6,6 +6,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 50px;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 100px auto 0;
+  margin: 100px auto;
 }
 
 .cards-container {
@@ -29,6 +30,7 @@ body {
 .card {
   border-radius: 10px;
   padding: 20px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .violet {
